@@ -1,4 +1,40 @@
-h1{
-    background-color: lightcoral;
+@import url('https://fonts.googleapis.com/css2?fomily=arima:wgh:@100..700&family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{ 
+    --cor-um:#ff477e;
+    --cor-dois:#ff5c8a;
+    --cor-tres: #ff7096;
+    --cor-quatro:#ffc2d1;
+    --cor-cinco:#ffccd5;
+    --texto-corpo: "Raleway", sans-serif;
+    --texto-titulo: "Sedan SC", serif;
 }
 
+body{
+    background-color: var();
+    color: var(--cor-um);
+    font-family: var(--texto-titulo);
+}
+
+.cabecalho{ 
+    background-color: var(--cor-quatro);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-img{
+    width: 10%;
+    margin: 1em;
+}
+ .cabecalho-link{
+    text-decoration: none;
+    font-size: 2em;
+    color: var(--cor-um);
+    font-family: var(--font-titulo);
+    margin-right: 1em;
+ }
